@@ -1,1 +1,5 @@
-envoyer "Hello Word";
+definir HelloWord() {
+    envoyer "Hello Word";
+}
+
+appeler HelloWord();
