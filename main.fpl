@@ -1,9 +1,10 @@
 variable entier a -> 15;
 
-definir HelloWord() {
+definir HelloWord () {
     envoyer "Hello Word";
 }
 
 tant que a = 10, incrementer 1 {
-    appeler HelloWord();
+    appeler HelloWord;
+    envoyer a;
 }
